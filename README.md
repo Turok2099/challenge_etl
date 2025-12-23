@@ -1,6 +1,3 @@
----
-
-```markdown
 # 📊 Telecom X – Análisis de Evasión de Clientes (Churn)
 
 Este proyecto forma parte del Challenge de Alura Latam y tiene como objetivo analizar la evasión de clientes en una empresa de telecomunicaciones, utilizando técnicas de ETL, limpieza de datos, análisis exploratorio y visualización.
@@ -21,15 +18,8 @@ Este análisis busca:
 
 ## 📁 Estructura del Proyecto
 
-```
-TelecomX/
-│
-├── TelecomX_Data.json              # Dataset original en formato JSON
-├── TelecomX_Challenge.ipynb        # Notebook principal con ETL, EDA y visualizaciones
-├── README.md                       # Este archivo
-├── /assets                         # Carpeta opcional para guardar gráficos exportados
-└── requirements.txt                # (Opcional) dependencias del entorno
-```
+TelecomX/ │ ├── TelecomX_Data.json              # Dataset original en formato JSON ├── TelecomX_Challenge.ipynb        # Notebook principal con ETL, EDA y visualizaciones ├── README.md                       # Este archivo ├── /assets                         # Carpeta opcional para guardar gráficos exportados └── requirements.txt                # (Opcional) dependencias del entorno
+
 
 ---
 
@@ -55,30 +45,20 @@ Clientes con más servicios (seguridad, soporte, streaming) presentan menor chur
 1. **Clona el repositorio o descarga los archivos**
    ```bash
    git clone https://github.com/tu_usuario/TelecomX.git
-   ```
 
-2. **Abre el notebook en Google Colab o Jupyter**
-   - Asegúrate de tener acceso al archivo `TelecomX_Data.json`.
+   - Abre el notebook en Google Colab o Jupyter
+- Asegúrate de tener acceso al archivo TelecomX_Data.json.
+- Ejecuta las celdas en orden
+- El notebook incluye:
+- Carga y normalización del JSON
+- Limpieza y transformación
+- Análisis exploratorio
+- Visualizaciones
+- Insights y recomendaciones
+- Explora los gráficos y modifica parámetros si lo deseas
+- Puedes ajustar paletas, tamaños, filtros y agregar nuevas visualizaciones.
 
-3. **Ejecuta las celdas en orden**
-   - El notebook incluye:
-     - Carga y normalización del JSON
-     - Limpieza y transformación
-     - Análisis exploratorio
-     - Visualizaciones
-     - Insights y recomendaciones
-
-4. **Explora los gráficos y modifica parámetros si lo deseas**
-   - Puedes ajustar paletas, tamaños, filtros y agregar nuevas visualizaciones.
-
----
-
-## 🚀 Créditos
-
-Desarrollado por Jorge Castro como parte del Challenge de Alura Latam.  
+🚀 Créditos
+Desarrollado por Jorge Castro como parte del Challenge de Alura Latam.
 Incluye prácticas de ETL, análisis exploratorio, visualización con Seaborn y generación de insights accionables.
-
----
-
-```
 
